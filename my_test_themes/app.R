@@ -11,6 +11,8 @@ library(shiny)
 library(shinythemes)
 library(bslib)
 
+#this does not seem to work, is it the R version?
+# updated shiny and installed dev version of bslib from github
 my_awesome_theme <- bs_theme(
     bg = "pink",
     fg = "purple",
